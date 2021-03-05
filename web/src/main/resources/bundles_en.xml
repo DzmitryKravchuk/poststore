@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="table.name.home">Home page</entry>
+
+	<!--Login with Username and Password -->
+	<entry key="table.name.login">Login with Username and Password</entry>
+
+	<entry key="table.name.settings">Settings</entry>
+	<entry key="table.name.postServices">Services</entry>
+	<entry key="table.name.postProducts">Products</entry>
+
+	<entry key="table.name.product">Products</entry>
+	<entry key="table.name.editProduct">Product (edit)</entry>
+
+	<entry key="table.name.store">Stores</entry>
+	<entry key="table.name.editStore">Store (edit)</entry>
+
+	<entry key="table.name.inventory">Inventory</entry>
+	<entry key="table.name.editInventory">Inventory (edit)</entry>
+
+	<entry key="table.name.courier">Courier</entry>
+	<entry key="table.name.editCourier">Courier (edit)</entry>
+
+	<entry key="table.name.moneyTransfer">Money transfers</entry>
+	<entry key="table.name.editMoneyTransfer">Money transfer (edit)</entry>
+
+	<entry key="table.name.mailing">Mailings</entry>
+	<entry key="table.name.editMailing">Mailing (edit)</entry>
+
+	<entry key="table.name.orderItem">Order item</entry>
+	<entry key="table.name.editOrderItem">Order item (edit)</entry>
+	<entry key="table.name.cartOrderProduct">Product cart</entry>
+	<entry key="table.name.orderProduct">Order product</entry>
+
+	<entry key="table.name.orderHistory">Order history</entry>
+	<entry key="table.name.viewOrderHistory">View order</entry>
+
+	<entry key="table.name.polygraphy">Polygraphy</entry>
+	<entry key="table.name.editPolygraphy">Polygraphy (edit)</entry>
+
+	<entry key="table.name.expressZone">Express zones</entry>
+	<entry key="table.name.editExpressZone">Express zone (edit)</entry>
+
+	<entry key="table.name.letterZone">Letter zones</entry>
+	<entry key="table.name.editLetterZone">Letter zone (edit)</entry>
+
+	<entry key="table.name.parcelZone">Parcel zones</entry>
+	<entry key="table.name.editParcelZone">Parcel zone (edit)</entry>
+
+	<entry key="table.name.country">Countries</entry>
+	<entry key="table.name.editCountry">Country (edit)</entry>
+
+	<entry key="table.name.paperDetails">Paper details</entry>
+	<entry key="table.name.editPaperDetails">Paper details (edit)</entry>
+
+	<entry key="table.name.editUserAccount">New user account</entry>
+
+	<entry key="table.column.id">id</entry>
+	<entry key="table.column.created">created"</entry>
+	<entry key="table.column.updated">updated</entry>
+	<entry key="table.column.shippingFrom">shipping from</entry>
+	<entry key="table.column.shippingTo">shipping to</entry>
+	<entry key="table.column.shippingType">shipping type</entry>
+	<entry key="table.column.addressee">receiver</entry>
+	<entry key="table.column.address">receiver's address</entry>
+	<entry key="table.column.cost">cost</entry>
+	<entry key="table.column.status">order status</entry>
+	<entry key="table.column.price">price</entry>
+	<entry key="table.column.price4g100">price 4 each 100g</entry>
+	<entry key="table.column.price4paper">price 4 A4 print</entry>
+	<entry key="table.column.name">name</entry>
+	<entry key="table.column.expressZone">express zone tariff</entry>
+	<entry key="table.column.letterZone">letter zone tariff</entry>
+	<entry key="table.column.parcelZone">parcel zone tariff</entry>
+	<entry key="table.column.mailingType">mailing type</entry>
+	<entry key="table.column.country">country</entry>
+	<entry key="table.column.weight">weight, k.</entry>
+
+	<entry key="table.column.payerName">payer name</entry>
+	<entry key="table.column.payerAddress">payer address</entry>
+	<entry key="table.column.amount">amount</entry>
+
+	<entry key="table.column.imageFormat">image size</entry>
+	<entry key="table.column.copyCount">copy count</entry>
+	<entry key="table.column.duplexPrinting">duplex printing</entry>
+	<entry key="table.column.coloured">coloured</entry>
+	<entry key="table.column.paperName">paper details</entry>
+
+	<entry key="table.column.quantity">quantity</entry>
+	<entry key="table.column.store">store</entry>
+
+	<entry key="table.button.save">save</entry>
+	<entry key="table.button.toList">to list</entry>
+	<entry key="table.button.toProductList">to product list</entry>
+	<entry key="table.button.toProductCart">to product cart</entry>
+	<entry key="table.button.addToCart">add to cart</entry>
+
+	<entry key="table.button.enter">logIn</entry>
+	<entry key="table.button.createAccaunt">create accaunt</entry>
+	<entry key="table.button.markExecuted">mark Executed</entry>
+	<entry key="table.button.markSubmited">mark Submited</entry>
+
+
+</properties>

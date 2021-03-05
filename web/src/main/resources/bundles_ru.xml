@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="table.name.home">Главная</entry>
+
+	<!--Login with Username and Password -->
+	<entry key="table.name.login">Введите имя пользователя и пароль</entry>
+
+	<entry key="table.name.settings">Администрирование</entry>
+	<entry key="table.name.postServices">Услуги почты</entry>
+	<entry key="table.name.postProducts">Товары почты</entry>
+
+	<entry key="table.name.product">Товары (создание)</entry>
+	<entry key="table.name.editProduct">Товар (редактирование)</entry>
+
+	<entry key="table.name.store">Склад (выбор)</entry>
+	<entry key="table.name.editStore">Склад (редактирование)</entry>
+
+	<entry key="table.name.inventory">Товары на складе</entry>
+	<entry key="table.name.editInventory">Поступление товара</entry>
+
+	<entry key="table.name.courier">Курьерская доставка</entry>
+	<entry key="table.name.editCourier">Курьерская доставка (редактирование)</entry>
+
+	<entry key="table.name.moneyTransfer">Денежный перевод</entry>
+	<entry key="table.name.editMoneyTransfer">Денежный перевод (редактирование)</entry>
+
+	<entry key="table.name.mailing">Почтовые отправления</entry>
+	<entry key="table.name.editMailing">Почтовое отправление (редактирование)</entry>
+
+	<entry key="table.name.orderItem">Выбор товаров</entry>
+	<entry key="table.name.editOrderItem">Товар-в корзине (редактирование)</entry>
+	<entry key="table.name.cartOrderProduct">Товары-в корзине</entry>
+	<entry key="table.name.orderProduct">Заказ на товары (оформление)</entry>
+
+	<entry key="table.name.orderHistory">История заказов</entry>
+	<entry key="table.name.viewOrderHistory">Просмотр заказа</entry>
+
+	<entry key="table.name.polygraphy">Полиграфия</entry>
+	<entry key="table.name.editPolygraphy">Полиграфия (редактирование)</entry>
+
+	<entry key="table.name.expressZone">Экспресс т.зона (создание)</entry>
+	<entry key="table.name.editExpressZone">Экспресс т.зона (редактирование)</entry>
+
+	<entry key="table.name.letterZone">Письма т.зона (создание)</entry>
+	<entry key="table.name.editLetterZone">Письма т.зона (редактирование)</entry>
+
+	<entry key="table.name.parcelZone">Посылки т.зона (создание)</entry>
+	<entry key="table.name.editParcelZone">Посылки т.зона (редактирование)</entry>
+
+	<entry key="table.name.country">Страны (создание)</entry>
+	<entry key="table.name.editCountry">Страна (редактирование)</entry>
+
+	<entry key="table.name.paperDetails">Бумага (создание)</entry>
+	<entry key="table.name.editPaperDetails">Бумага (редактирование)</entry>
+
+	<entry key="table.name.editUserAccount">Создание новой учетной записи</entry>
+
+	<entry key="table.column.id">номер</entry>
+	<entry key="table.column.created">создан</entry>
+	<entry key="table.column.updated">обновлено</entry>
+	<entry key="table.column.shippingFrom">адрес отправителя</entry>
+	<entry key="table.column.shippingTo">адрес получателя</entry>
+	<entry key="table.column.shippingType">способ отправки</entry>
+	<entry key="table.column.addressee">получатель (ФИО)</entry>
+	<entry key="table.column.address">адрес получателя</entry>
+	<entry key="table.column.cost">стоимость заказа</entry>
+	<entry key="table.column.status">состояние заказа</entry>
+	<entry key="table.column.price">стоимость</entry>
+	<entry key="table.column.price4g100">тариф за 100гр.</entry>
+	<entry key="table.column.price4paper">тариф за 1 стр.А4</entry>
+	<entry key="table.column.name">наименование</entry>
+	<entry key="table.column.expressZone">т.зона Экспресс</entry>
+	<entry key="table.column.letterZone">т.зона Письма</entry>
+	<entry key="table.column.parcelZone">т.зона Посылки</entry>
+	<entry key="table.column.mailingType">тип отправления</entry>
+	<entry key="table.column.country">страна</entry>
+	<entry key="table.column.weight">вес, кг.</entry>
+
+	<entry key="table.column.payerName">плательщик (ФИО)</entry>
+	<entry key="table.column.payerAddress">адрес плательщика</entry>
+	<entry key="table.column.amount">сумма перевода</entry>
+
+	<entry key="table.column.imageFormat">размер изображения</entry>
+	<entry key="table.column.copyCount">количество копий</entry>
+	<entry key="table.column.duplexPrinting">двухсторонняя печать</entry>
+	<entry key="table.column.coloured">цветная печать</entry>
+	<entry key="table.column.paperName">бумага</entry>
+
+	<entry key="table.column.quantity">количество, шт.</entry>
+	<entry key="table.column.store">склад</entry>
+
+	<entry key="table.button.save">сохранить</entry>
+	<entry key="table.button.toList">к списку</entry>
+	<entry key="table.button.toProductList">к списку товаров</entry>
+	<entry key="table.button.toProductCart">к корзине</entry>
+	<entry key="table.button.addToCart">добавить в корзину</entry>
+
+	<entry key="table.button.enter">войти</entry>
+	<entry key="table.button.createAccaunt">создать аккаунт</entry>
+	<entry key="table.button.markExecuted">отметить Исполнено</entry>
+	<entry key="table.button.markSubmited">подтвердить заказ</entry>
+
+
+
+</properties>

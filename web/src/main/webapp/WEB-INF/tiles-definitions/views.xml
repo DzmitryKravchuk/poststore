@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE tiles-definitions PUBLIC  
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<definition name="DefaultTemplate"
+		template="/WEB-INF/views/main-template.jsp">
+		<put-attribute name="title" value="Почтовый Магазин" />
+		<put-attribute name="header"
+			value="/WEB-INF/views/header.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer"
+			value="/WEB-INF/views/footer.jsp" />
+	</definition>
+
+	<definition name="home" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/home.jsp" />
+	</definition>
+
+	<!-- product -->
+	<definition name="product.list" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/product/list.jsp" />
+	</definition>
+
+	<definition name="product.edit" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/product/form.jsp" />
+	</definition>
+
+	<!-- inventory -->
+	<definition name="inventory.list" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/inventory/list.jsp" />
+	</definition>
+
+	<definition name="inventory.edit" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/inventory/form.jsp" />
+	</definition>
+
+	<!-- userAccount -->
+	<definition name="userAccount.list"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/userAccount/list.jsp" />
+	</definition>
+
+	<definition name="userAccount.edit"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/userAccount/form.jsp" />
+	</definition>
+
+	<!-- expressZone -->
+	<definition name="expressZone.list"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/expressZone/list.jsp" />
+	</definition>
+
+	<definition name="expressZone.edit"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/expressZone/form.jsp" />
+	</definition>
+
+	<!-- letterZone -->
+	<definition name="letterZone.list" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/letterZone/list.jsp" />
+	</definition>
+
+	<definition name="letterZone.edit" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/letterZone/form.jsp" />
+	</definition>
+
+	<!-- parcelZone -->
+	<definition name="parcelZone.list" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/parcelZone/list.jsp" />
+	</definition>
+
+	<definition name="parcelZone.edit" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/parcelZone/form.jsp" />
+	</definition>
+
+	<!-- country -->
+	<definition name="country.list" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/country/list.jsp" />
+	</definition>
+
+	<definition name="country.edit" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/country/form.jsp" />
+	</definition>
+
+	<!-- mailing -->
+	<definition name="mailing.list" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/mailing/list.jsp" />
+	</definition>
+
+	<definition name="mailing.edit" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/mailing/form.jsp" />
+	</definition>
+
+	<!-- orderProduct -->
+	<definition name="orderProduct.list"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/orderProduct/list.jsp" />
+	</definition>
+
+	<definition name="orderProduct.item"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/orderProduct/item.jsp" />
+	</definition>
+
+	<definition name="orderProduct.cart"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/orderProduct/cart.jsp" />
+	</definition>
+
+	<definition name="orderProduct.order"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/orderProduct/order.jsp" />
+	</definition>
+
+
+	<!-- orderHistory -->
+	<definition name="orderHistory.list"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/orderHistory/list.jsp" />
+	</definition>
+
+	<definition name="orderHistory.cart"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/orderHistory/cart.jsp" />
+	</definition>
+
+
+
+	<!-- courier -->
+	<definition name="courier.list" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/courier/list.jsp" />
+	</definition>
+
+	<definition name="courier.edit" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/courier/form.jsp" />
+	</definition>
+
+	<!-- moneyTransfer -->
+	<definition name="moneyTransfer.list"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/moneyTransfer/list.jsp" />
+	</definition>
+
+	<definition name="moneyTransfer.edit"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/moneyTransfer/form.jsp" />
+	</definition>
+
+	<!-- paperDetails -->
+	<definition name="paperDetails.list"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/paperDetails/list.jsp" />
+	</definition>
+
+	<definition name="paperDetails.edit"
+		extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/paperDetails/form.jsp" />
+	</definition>
+
+	<!-- polygraphy -->
+	<definition name="polygraphy.list" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/polygraphy/list.jsp" />
+	</definition>
+
+	<definition name="polygraphy.edit" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/polygraphy/form.jsp" />
+	</definition>
+
+
+
+	<definition name="login" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/login.jsp" />
+	</definition>
+
+</tiles-definitions>
